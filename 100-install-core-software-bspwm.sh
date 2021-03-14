@@ -74,7 +74,7 @@ sudo rsync -rtv Root/boot/ /boot/
 # Changed .face
 # Edit i3 and polybar.....
 # Found out for yourself
-sudo rsync -rtv HomeDir/ ~/
+rsync -rtv HomeDir/ ~/
 
 ##################################################################################################################
 
