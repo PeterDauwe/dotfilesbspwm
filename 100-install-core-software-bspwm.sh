@@ -45,6 +45,10 @@ echo 'All the needed software is installed.'
 #Part 3 - Copy what needs to go to etc
 # Sddm.conf , just lines 8 and 9 are adapted
 # Enable Sddm
+
+sed -i "6s/.*/user="$USER"/g" Root/etc/sddm.conf
+
+
 sudo rsync -rtv Root/etc/ /etc/
 sudo systemctl enable sddm.service -f
 
