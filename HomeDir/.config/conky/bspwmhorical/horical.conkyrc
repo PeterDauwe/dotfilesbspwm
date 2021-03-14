@@ -58,5 +58,5 @@ conky.config = {
 
 
 conky.text = [[
-$color${execpi 36000 ~/.config/conky/horical/res/horical}${color}
+$color${execpi 36000 ~/.config/conky/bspwmhorical/res/horical}${color}
 ]];
