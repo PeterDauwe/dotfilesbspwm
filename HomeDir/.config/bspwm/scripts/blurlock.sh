@@ -6,7 +6,7 @@ DIR="/usr/share/backgrounds/*"
 SCREEN=$(ls $DIR/*.jpg | shuf -n1)
 
 # Convert wallpaper to blurred picture and put it in the i3lock dir
-convert -resize $(xdpyinfo | grep dimensions | cut -d\  -f7 | cut -dx -f1) $SCREEN -blur 0x4 /home/$USER/.cache/i3lock/blurlock.png &&\
+convert -resize $(xdpyinfo | grep dimensions | cut -d\  -f7 | cut -dx -f1) $SCREEN -blur 0x4 /home/$USER/.cache/bspwmlock/blurlock.png &&\
 
 #Use the blurred picture in the lock screen
 i3lock -i /home/$USER/.cache/bspwmlock/blurlock.png
