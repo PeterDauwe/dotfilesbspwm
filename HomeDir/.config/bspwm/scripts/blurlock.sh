@@ -9,7 +9,7 @@ SCREEN=$(ls $DIR/*.jpg | shuf -n1)
 convert -resize $(xdpyinfo | grep dimensions | cut -d\  -f7 | cut -dx -f1) $SCREEN -blur 0x4 /home/$USER/.cache/i3lock/blurlock.png &&\
 
 #Use the blurred picture in the lock screen
-i3lock -i /home/$USER/.cache/i3lock/blurlock.png
+i3lock -i /home/$USER/.cache/bspwmlock/blurlock.png
 
 #After unlock remove the blurred picture
 #rm /home/$USER/.cache/i3lock/blurlock.png
