@@ -24,9 +24,9 @@ sudo pacman -S --noconfirm --needed menulibre
 sudo pacman -S --noconfirm --needed sddm
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed atom
-#sudo pacman -S --noconfirm --needed virtualbox
-#sudo pacman -S --noconfirm --needed virtualbox-host-dkms
-#sudo pacman -S --noconfirm --needed linux-headers
+sudo pacman -S --noconfirm --needed virtualbox
+sudo pacman -S --noconfirm --needed virtualbox-host-dkms
+sudo pacman -S --noconfirm --needed linux-headers
 sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed alacritty
