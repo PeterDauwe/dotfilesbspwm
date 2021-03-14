@@ -1,6 +1,5 @@
 #!/bin/bash
-
-chmod -R 644 *.sh
+find $1 -name "*.sh" -print -exec chmod u+x {} +
 
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
