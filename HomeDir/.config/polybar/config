@@ -51,10 +51,18 @@ format-offset =
 
 [colors]
 ; Nord theme ============
-;background = #2F343F85
-background = ${xrdb:color:#222}
+background = #99000000
+;${xrdb:color0:#222}
 foreground = ${xrdb:color7:#222}
-;foreground = #f3f4f5
+primary = ${xrdb:color2:#222}
+secondary = ${xrdb:color8:#222}
+third = ${xrdb:color2:#222}
+adapta-red = #FF5252
+adapta-yellow = #C9BC0E
+adapta-lightgreen = #4DB6AC
+adapta-green = #009688
+
+transparent = #85000000
 alert = #d08770
 volume-min = #a3be8c
 volume-med = #ebcb8b
